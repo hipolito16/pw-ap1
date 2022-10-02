@@ -1,0 +1,43 @@
+.bg-primary {
+    background-color: grey !important;
+}
+
+ul>li>a{
+    color: black !important;
+}
+
+ul>li>a:hover {
+    background-color: grey;
+}
+
+a .text-white:hover {
+    color: rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 15vh;
+}
+
+nav {
+    height: 70vh;
+    width: 20vw;
+}
+
+section {
+    height: 70vh;
+    width: 80vw;
+    overflow-y: scroll;
+}
+
+footer {
+    height: 15vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
